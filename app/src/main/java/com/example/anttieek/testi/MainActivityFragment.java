@@ -32,7 +32,7 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_main, container, false);
         EuroInput = v.findViewById(R.id.EuroInput);
-        USDInput = v.findViewById(R.id.USDInput);
+        //USDInput = v.findViewById(R.id.USDInput);
         tv = v.findViewById(R.id.textView2);
 
 

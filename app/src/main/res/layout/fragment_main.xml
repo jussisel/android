@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,8 +33,8 @@
         android:id="@+id/Calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
         android:onClick="onCalculate"
         android:text="@string/Calculate"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +44,7 @@
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RadioButton"
+        android:text="1 - 2 henkilöä"
         tools:layout_editor_absoluteX="257dp"
         tools:layout_editor_absoluteY="32dp" />
 
@@ -52,7 +52,7 @@
         android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RadioButton"
+        android:text="3 - 4 henkilöä"
         tools:layout_editor_absoluteX="257dp"
         tools:layout_editor_absoluteY="64dp" />
 
@@ -60,7 +60,7 @@
         android:id="@+id/radioButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RadioButton"
+        android:text="4 - 6 henkilöä"
         tools:layout_editor_absoluteX="257dp"
         tools:layout_editor_absoluteY="100dp" />
 
@@ -68,7 +68,7 @@
         android:id="@+id/radioButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RadioButton"
+        android:text="Yli 6 henkilöä"
         tools:layout_editor_absoluteX="257dp"
         tools:layout_editor_absoluteY="134dp" />
 

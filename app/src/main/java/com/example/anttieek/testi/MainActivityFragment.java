@@ -47,7 +47,7 @@ public class MainActivityFragment extends Fragment {
             EuroInput.setText(Double.toString(usd * upper));
         } else if(USDInput.getText().toString().isEmpty() && !EuroInput.getText().toString().isEmpty()){
             Double euros = Double.parseDouble(EuroInput.getText().toString());
-            USDInput.setText(Double.toString(euros * lower));
+            USDInput.setText(Double.toString(euros * lower + 5.90));
         }
 
     }
@@ -59,27 +59,27 @@ public class MainActivityFragment extends Fragment {
             case "0":
                 tv.setText("Kovanen");
                 //upper = 0.81;
-                lower = 1.21;
+                lower = 1.60;
                 break;
             case "1":
                 tv.setText("Vihavaisen taksi");
                 //upper = 0.01;
-                lower = 10.06;
+                lower = 1.60;
                 break;
             case "2":
                 tv.setText("Kajoni");
                 //upper = 0.13;
-                lower = 7.45;
+                lower = 1.60;
                 break;
             case "3":
                 tv.setText("Taksiyritys Kim Fallenius");
                // upper = 1.12;
-                lower = 0.87;
+                lower = 1.60;
                 break;
             case "4":
                 tv.setText("Mankkaan taksi");
                 //upper = 0.003;
-                lower = 311.42;
+                lower = 1.60;
                 break;
         }
     }

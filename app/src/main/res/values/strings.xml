@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">testi</string>
+    <string name="action_settings">Settings</string>
+    <string name="Euro" />
+    <string name="Euros">Euros</string>
+    <string name="Km">Kilometrit</string>
+    <string name="Hinta">Hinta</string>
+    <string name="USD">USD</string>
+    <string name="Button">Button</string>
+    <string name="Calculate">Calculate</string>
+    <string name="action_list">List</string>
+</resources>

@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onCalculate(View view){
         if (fragment != null){
-            fragment.onCalculate(view, intent);
+            fragment.onCalculate(view);
         }
     }
 
